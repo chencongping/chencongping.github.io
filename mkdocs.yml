@@ -1,6 +1,6 @@
 site_name: "AI Agent 文档中心"  # 网站标题
 nav:                          # 导航菜单
-  - 首页: index.md
+  - Home: index.md
   - 开发指南:
       - 环境配置: development/env.md
       - API 规范: development/api.md
@@ -23,3 +23,5 @@ markdown_extensions:
 
 plugins:
   - search                    # 启用搜索功能
+
+site_dir: site
