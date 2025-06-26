@@ -24,4 +24,5 @@ markdown_extensions:
 plugins:
   - search                    # 启用搜索功能
 
-site_dir: site
+docs_dir: src
+site_dir: docs
