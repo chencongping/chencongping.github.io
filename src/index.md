@@ -83,7 +83,7 @@ plugins:
 
 #### **实时预览**
 ```bash
-mkdocs serve  # 启动本地服务器
+mkdocs serve --dirtyreload  # 启动本地服务器
 ```
 访问 `http://localhost:8000` 实时预览，修改内容自动刷新 [citation:1][citation:3]。
 

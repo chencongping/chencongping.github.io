@@ -26,3 +26,4 @@ plugins:
 
 docs_dir: src
 site_dir: docs
+use_directory_urls: false  # 禁用目录URL缓存（可选）
