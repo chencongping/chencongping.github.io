@@ -1,0 +1,25 @@
+site_name: "AI Agent 文档中心"  # 网站标题
+nav:                          # 导航菜单
+  - 首页: index.md
+  - 开发指南:
+      - 环境配置: development/env.md
+      - API 规范: development/api.md
+  - 部署手册: deployment.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs     # 顶部标签导航
+    - search.highlight    # 搜索关键词高亮
+  palette:               # 配色方案
+    primary: deep purple
+    accent: yellow
+
+markdown_extensions:
+  - admonition           # 提示块
+  - toc:                 # 目录锚点
+      permalink: true
+  - pymdownx.superfences # 高级代码块
+
+plugins:
+  - search                    # 启用搜索功能
